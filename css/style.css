@@ -15,10 +15,8 @@ body {
   color: #2d3248;
   font-family: "Kumbh Sans", sans-serif;
   background-color: #19a2ae;
-  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
-  background-repeat: no-repeat, no-repeat;
-  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
   overflow: hidden;
+  position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -27,6 +25,27 @@ body {
 .container {
   width: 80%;
   max-width: 330px; }
+
+.background {
+  position: absolute; }
+  .background__img--top {
+    position: relative;
+    top: -1rem;
+    left: -50rem;
+    z-index: -1; }
+    @media (min-width: 376px) {
+      .background__img--top {
+        top: 10rem;
+        left: -30rem; } }
+  .background__img--bottom {
+    position: relative;
+    bottom: 5rem;
+    left: 50rem;
+    z-index: -1; }
+    @media (min-width: 375px) {
+      .background__img--bottom {
+        bottom: 0rem;
+        left: 80rem; } }
 
 .card {
   background-color: #fff;

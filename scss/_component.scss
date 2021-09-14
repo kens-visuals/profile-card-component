@@ -3,6 +3,34 @@
   max-width: 330px;
 }
 
+.background {
+  position: absolute;
+
+  &__img--top {
+    position: relative;
+    top: -1rem;
+    left: -50rem;
+    z-index: -1;
+
+    @media (min-width: 376px) {
+      top: 10rem;
+      left: -30rem;
+    }
+  }
+
+  &__img--bottom {
+    position: relative;
+    bottom: 5rem;
+    left: 50rem;
+    z-index: -1;
+
+    @media (min-width: 375px) {
+      bottom: 0rem;
+      left: 80rem;
+    }
+  }
+}
+
 .card {
   background-color: #fff;
   border-radius: 10px;
