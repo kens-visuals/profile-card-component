@@ -41,19 +41,6 @@ This is a solution to the [Profile Card Component Challenge on Frontend Mentor](
 - CSS Flexbox
 - Mobile-first workflow
 
-### What I learned
-
-```css
-body {
-  /.../
-  background-image: url('/images/bg-pattern-top.svg'),
-    url('/images/bg-pattern-bottom.svg');
-  background-repeat: no-repeat, no-repeat;
-  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
-  /.../
-}
-```
-
 ### Continued development
 
 I like this challange because it brought good memories of my early learning days when I was trying to implement some basic stuff with HTML/CSS.
