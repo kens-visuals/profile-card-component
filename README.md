@@ -26,8 +26,8 @@ This is a solution to the [Profile Card Component Challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [TOBEUPDATED](https://your-solution-url.com)
-- Live Site URL: [TOBEUPDATED](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/simple-profile-card-component-built-with-scss-HwtVCsqjH](https://www.frontendmentor.io/solutions/simple-profile-card-component-built-with-scss-HwtVCsqjH)
+- Live Site URL: [https://kens-visuals.github.io/profile-card-component/](https://kens-visuals.github.io/profile-card-component/)
 
 ## My process
 
