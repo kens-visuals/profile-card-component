@@ -6,49 +6,31 @@
   box-sizing: inherit; }
 
 html {
-  font-size: 55.5%;
+  font-size: 62.5%;
   box-sizing: border-box; }
 
 body {
-  width: 100%;
   height: 100vh;
   color: #2d3248;
   font-family: "Kumbh Sans", sans-serif;
   background-color: #19a2ae;
-  overflow: hidden;
-  position: relative;
+  background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+  background-position: left 130% top 300%, right 115% bottom 350%;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center; }
+  @media (min-width: 1140px) {
+    body {
+      background-position: right 165% top 250%, left 145% bottom 360%; } }
 
 .container {
   width: 80%;
   max-width: 350px; }
 
-.background {
-  position: absolute; }
-  .background__img--top {
-    position: relative;
-    top: -1rem;
-    left: -50rem;
-    z-index: -1; }
-    @media (min-width: 376px) {
-      .background__img--top {
-        top: 10rem;
-        left: -30rem; } }
-  .background__img--bottom {
-    position: relative;
-    bottom: 5rem;
-    left: 50rem;
-    z-index: -1; }
-    @media (min-width: 375px) {
-      .background__img--bottom {
-        bottom: 0rem;
-        left: 80rem; } }
-
 .card {
-  background-color: #fff;
+  background-color: white;
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
@@ -60,7 +42,7 @@ body {
   .card__img {
     border-radius: 50%;
     margin-top: -5rem;
-    border: 0.4rem solid #fff; }
+    border: 0.4rem solid white; }
   .card__content {
     padding: 2rem; }
     .card__content-age {
@@ -98,7 +80,7 @@ body {
   bottom: 1rem; }
   .attribution__link:link, .attribution__link:visited {
     text-transform: uppercase;
-    color: #6a6f81;
+    color: white;
     transition: all 0.2s; }
   .attribution__link:hover, .attribution__link:active {
     text-transform: uppercase;
