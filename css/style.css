@@ -15,15 +15,12 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   background-color: #19a2ae;
   background-image: url(./bg-pattern-top.svg), url(./bg-pattern-bottom.svg);
-  background-position: left 130% top 300%, right 115% bottom 350%;
+  background-position: right 52vw bottom 40vh, left 50vw top 50vh;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center; }
-  @media (min-width: 1140px) {
-    body {
-      background-position: right 165% top 250%, left 145% bottom 360%; } }
 
 .container {
   width: 80%;
